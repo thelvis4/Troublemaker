@@ -1,0 +1,6 @@
+before_install:
+  - git submodule update --init --recursive
+language: objective-c
+xcode_project: Troublemaker.xcodeproj
+xcode_scheme: Troublemaker
+xcode_sdk: macosx
