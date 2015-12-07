@@ -4,3 +4,4 @@ language: objective-c
 xcode_project: Troublemaker.xcodeproj
 xcode_scheme: Troublemaker
 xcode_sdk: macosx
+osx_image: xcode7.1
