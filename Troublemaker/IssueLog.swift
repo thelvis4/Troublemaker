@@ -60,7 +60,11 @@ private extension String {
     private func convertToLocation() -> IssueLogLocation {
         let pattern = ":[0-9]+"
         let matches = self.getMatches(pattern)
-        guard let lineResult = matches.first else { return (self, nil, nil) }
+        guard let lineResult = matches.first else {
+            // No line or column number
+            return (self, nil, nil)
+        }
+        
         let lineStringRange = lineResult.range
         let filePath = self.substringToIndex(self.startIndex.advancedBy(lineStringRange.location))
         let numbers = getNumbersForMatches(matches)
@@ -70,9 +74,15 @@ private extension String {
     
     private func getNumbersForMatches(matches: [NSTextCheckingResult]) -> (line: UInt?, column: UInt?) {
         let numbers = matches.map {
+            
+            // Transforms into strings. Ex. [":12",":22"]
             self.substringWithNSRange($0.range)
+            
             }.map {
+                
+                // Removes ":" in fron of numbers
                 $0.stringByRemovingFirstCharacter()
+                
             }.flatMap { UInt($0) }
         
         return (numbers.first, numbers.second)
@@ -103,6 +113,7 @@ internal extension Array {
 
 
 private extension String {
+    
     private func getMatches(pattern: String) -> [NSTextCheckingResult] {
         do {
             let regex = try NSRegularExpression(pattern: pattern, options: NSRegularExpressionOptions.CaseInsensitive)

@@ -139,10 +139,10 @@
 		A360E1011C11FA2700D20771 /* Troublemaker */ = {
 			isa = PBXGroup;
 			children = (
+				A360E11C1C11FA4400D20771 /* Troublemaker.swift */,
 				A360E1191C11FA4400D20771 /* Issue.swift */,
 				A360E11A1C11FA4400D20771 /* IssueData.swift */,
 				A360E11B1C11FA4400D20771 /* IssueLog.swift */,
-				A360E11C1C11FA4400D20771 /* Troublemaker.swift */,
 				A360E1021C11FA2700D20771 /* Troublemaker.h */,
 				A360E1041C11FA2700D20771 /* Info.plist */,
 			);
@@ -239,7 +239,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = YOPESO;
+				ORGANIZATIONNAME = "Andrei Raifura";
 				TargetAttributes = {
 					A360E0FE1C11FA2700D20771 = {
 						CreatedOnToolsVersion = 7.1.1;
