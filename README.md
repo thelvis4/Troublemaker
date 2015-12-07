@@ -1,6 +1,8 @@
 # Troublemaker
 Troublemaker lets you inject warnings and errors in Xcode IDE. This framework uses unofficial and undocumented APIs and might stop working with the new releases of Xcode.
 
+[![Build Status](https://travis-ci.org/thelvis4/Troublemaker.svg?branch=master)](https://travis-ci.org/thelvis4/Troublemaker)
+
 [ [Motivation](#motivation) &bull; [How it works](#how-it-works) &bull; [Integration](#integration)
 &bull; [Usage](#usage) &bull; [Contributing](#contributing) &bull; [Known Issues](#known-issues) &bull; [License](#license) ]
 
