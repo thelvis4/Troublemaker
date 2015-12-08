@@ -7,6 +7,12 @@
 //
 
 /**
+Defines a protocol for generic issues
+*/
+public protocol IssueType {
+}
+
+/**
 Defines an Issue type to be shown in Xcode.
 
 It takes an instance of `IssueData` as associated value.
@@ -22,7 +28,7 @@ or
 let issue = Issue(log: "warning: A warning here")
 ```
 */
-public enum Issue {
+public enum Issue: IssueType {
     /**
      Defines a warning. It is usually represented in Xcode as a yellow triangle.
      */

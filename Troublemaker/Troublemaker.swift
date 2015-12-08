@@ -9,6 +9,20 @@
 import XcodeIDEKit
 
 /**
+ Defines a protocol for Issues controllers. This was mostly done to allow 
+ mocking.
+ */
+public protocol IssueController {
+    typealias IssueType
+    
+    func addIssue(issue: IssueType)
+    func removeIssue(issue: IssueType)
+    func clearAllIssues()
+    func clearGeneratedIssues()
+    
+}
+
+/**
  The responsible for injecting(adding) and removing Warning and Errors in Xcode.
  
  In this project `Warnings` and `Errors` are collectively called `Issues`.
@@ -29,18 +43,18 @@ import XcodeIDEKit
  This project is usseful only if the caller can get access to Xcode's window
  controller. The only known way to do this is from a Xcode plugin.
  */
-public struct Troublemaker {
+public struct Troublemaker: IssueController {
     
     let windowController: XKWorkspaceWindowController
     
     /**
      Initializes a instance of `Troublemaker` with a `NSWindowController`.
      
-     - parameter windowController: An instance of type `NSWindowController`. 
+     - parameter windowController: An instance of type `NSWindowController`.
                                    It must be Xcode's window controller.
      
      - returns: An instance of Troublemaker if the object passed as parameter
-                is Xcode's NSWindowController. Otherwise, it fails returning 
+                is Xcode's NSWindowController. Otherwise, it fails returning
                 `nil`.
      */
     public init?(windowController: NSWindowController) {
@@ -77,7 +91,7 @@ public struct Troublemaker {
     }
     
     /**
-     Removes a specific issue from Xcode if there is an issue that matches the 
+     Removes a specific issue from Xcode if there is an issue that matches the
      info from the `Issue` instance passed as parameter. Otherwise, nothing happens.
      
      - parameter issue: An `Issue` type.
@@ -102,7 +116,6 @@ public struct Troublemaker {
     }
     
 }
-
 
 
 internal extension Issue {
