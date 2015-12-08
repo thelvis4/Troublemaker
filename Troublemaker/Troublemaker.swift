@@ -48,34 +48,16 @@ public struct Troublemaker: IssueController {
     let windowController: XKWorkspaceWindowController
     
     /**
-     Initializes a instance of `Troublemaker` with a `NSWindowController`.
+     Initializes a instance of `Troublemaker`. It will try to gather Xcode's
+     workspace(Editor) window automatically. It will fail if there is no 
+     workspace window.
      
-     - parameter windowController: An instance of type `NSWindowController`.
-                                   It must be Xcode's window controller.
-     
-     - returns: An instance of Troublemaker if the object passed as parameter
-                is Xcode's NSWindowController. Otherwise, it fails returning
-                `nil`.
-     */
-    public init?(windowController: NSWindowController) {
-        if let workspaceController = XKWorkspaceWindowController(NSWindowController: windowController) {
-            self.windowController = workspaceController
-        } else {
-            return nil
-        }
-    }
-    
-    /**
-     Initializes a instance of `Troublemaker`. It will try to gather an instance
-     of `NSWindowController` automatically.
-     
-     - returns: An instance of Troublemaker if the gathered `NSWindowController`
-                is Xcode's NSWindowController. Otherwise, it fails returning
-                `nil`.
+     - returns: An instance of Troublemaker if was able to access Xcode's 
+                workspace window. Otherwise, it fails returning `nil`.
      */
     public init?() {
-        if let windowController = NSApp.keyWindow?.windowController {
-            self.init(windowController: windowController)
+        if let workspaceController = XKWindowsController().initializeWorkspaceWindowController() {
+            self.windowController = workspaceController
         } else {
             return nil
         }
