@@ -40,19 +40,7 @@ git submodule update --init
 - Build Troublemaker.
 - In Xcode, Go to `Products` group.
 - Right-click on `Troublemaker.framework` => `Show in Finder`
-- Drag and drop the framework in your project.
-
-`Troublemaker` uses `XcodeIDEKit` as an embedded framework. For unknown to me reasons, Xcode links against embedded framework, and we have to indicate the path to embedded framework. 
-
-To do this, go to `Framework Search Paths` in `Build Settings` and add:
-```
-<Path/To/Troublemaker>/Troublemaker.framework/Versions/A/Frameworks
-```
-where `<Path/To/Troublemaker>` is the relative path to the folder where Troublemaker is stored in.
-For example:
-```
-$(PROJECT_DIR)/Frameworks/Troublemaker.framework/Versions/A/Frameworks
-```
+- Drag and drop `Troublemaker.framework` and `XcodeIDEKit.framework` in your project.
 
 #### As Xcode subproject
 - Drag and drop `Troublemaker.xcodeproj` file into your project.
@@ -104,7 +92,6 @@ troublemaker.clearGeneratedIssues()
 This project is WIP. If you've spotted a bug or an issue, please open a [New Issue](https://github.com/thelvis4/Troublemaker/issues/new). If you want to contribute to the codebase, please submit a [Pull request](https://help.github.com/articles/using-pull-requests/).
 
 ## Known Issues
-* Troublemaker fails to initialize if the `init?()` method is called when Xcode is not active(it's a background window).
 * Issues don't disappear when you `Product` => `Clean` (⇧⌘K).
 
 ## License

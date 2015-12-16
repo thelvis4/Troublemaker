@@ -20,7 +20,6 @@
 		A360E12B1C11FA8100D20771 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E1221C11FA6100D20771 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A360E12C1C11FA8100D20771 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E1231C11FA6100D20771 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A360E1701C12424D00D20771 /* XcodeIDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E16B1C12423700D20771 /* XcodeIDEKit.framework */; };
-		A360E1721C12425C00D20771 /* XcodeIDEKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E16B1C12423700D20771 /* XcodeIDEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,16 +62,6 @@
 			files = (
 				A360E12B1C11FA8100D20771 /* Nimble.framework in CopyFiles */,
 				A360E12C1C11FA8100D20771 /* Quick.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A360E1711C12425200D20771 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A360E1721C12425C00D20771 /* XcodeIDEKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +189,6 @@
 				A360E0FB1C11FA2700D20771 /* Frameworks */,
 				A360E0FC1C11FA2700D20771 /* Headers */,
 				A360E0FD1C11FA2700D20771 /* Resources */,
-				A360E1711C12425200D20771 /* CopyFiles */,
 			);
 			buildRules = (
 			);
