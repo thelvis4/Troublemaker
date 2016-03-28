@@ -132,6 +132,7 @@ xcuserdata
 /Frank/results/
 *.idea/
 *.xcscmblueprint
+*.Carthage
 
 ####
 taylor_report.*

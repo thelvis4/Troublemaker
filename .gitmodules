@@ -1,4 +1,0 @@
-[submodule "XcodeIDEKit"]
-	path = XcodeIDEKit
-	url = https://github.com/thelvis4/XcodeIDEKit.git
-	branch = master

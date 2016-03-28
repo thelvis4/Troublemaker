@@ -13,7 +13,7 @@ import XcodeIDEKit
  mocking.
  */
 public protocol IssueController {
-    typealias IssueType
+    associatedtype IssueType
     
     func addIssue(issue: IssueType)
     func removeIssue(issue: IssueType)
