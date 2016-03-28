@@ -19,7 +19,7 @@ class Troublemaker_demo: NSObject {
         self.bundle = bundle
         
         super.init()
-        center.addObserver(self, selector: Selector("createMenuItems"), name: NSApplicationDidFinishLaunchingNotification, object: nil)
+        center.addObserver(self, selector: #selector(Troublemaker_demo.createMenuItems), name: NSApplicationDidFinishLaunchingNotification, object: nil)
     }
     
     deinit {
@@ -35,7 +35,7 @@ class Troublemaker_demo: NSObject {
         
         let item = NSApp.mainMenu!.itemWithTitle("Edit")
         if item != nil {
-            let actionMenuItem = NSMenuItem(title:"Do Action", action:"doMenuAction", keyEquivalent:"")
+            let actionMenuItem = NSMenuItem(title:"Do Action", action:#selector(Troublemaker_demo.doMenuAction), keyEquivalent:"")
             actionMenuItem.target = self
             item!.submenu!.addItem(NSMenuItem.separatorItem())
             item!.submenu!.addItem(actionMenuItem)

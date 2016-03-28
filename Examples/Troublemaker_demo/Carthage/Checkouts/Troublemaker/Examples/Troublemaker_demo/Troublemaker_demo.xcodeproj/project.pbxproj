@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36D0D2D1C15E2FC00C27953 /* Troublemaker_demo.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = A36D0D2C1C15E2FC00C27953 /* Troublemaker_demo.xcscheme */; };
+		A36D0D2F1C15E2FC00C27953 /* Troublemaker_demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D0D2E1C15E2FC00C27953 /* Troublemaker_demo.swift */; };
+		A36D0D311C15E2FC00C27953 /* NSObject_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D0D301C15E2FC00C27953 /* NSObject_Extension.swift */; };
+		A36D0D571C15F5F000C27953 /* Troublemaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36D0D521C15F5E000C27953 /* Troublemaker.framework */; };
+		A36D0D581C15F5F400C27953 /* Troublemaker.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A36D0D521C15F5E000C27953 /* Troublemaker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A36D0D511C15F5E000C27953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A36D0D4B1C15F5E000C27953 /* Troublemaker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A360E0FF1C11FA2700D20771;
+			remoteInfo = Troublemaker;
+		};
+		A36D0D531C15F5E000C27953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A36D0D4B1C15F5E000C27953 /* Troublemaker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A360E1091C11FA2700D20771;
+			remoteInfo = TroublemakerTests;
+		};
+		A36D0D551C15F5E900C27953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A36D0D4B1C15F5E000C27953 /* Troublemaker.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A360E0FE1C11FA2700D20771;
+			remoteInfo = Troublemaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A36D0D461C15E55500C27953 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A36D0D581C15F5F400C27953 /* Troublemaker.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A36D0D281C15E2FC00C27953 /* Troublemaker_demo.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Troublemaker_demo.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36D0D2C1C15E2FC00C27953 /* Troublemaker_demo.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Troublemaker_demo.xcscheme; path = Troublemaker_demo.xcodeproj/xcshareddata/xcschemes/Troublemaker_demo.xcscheme; sourceTree = SOURCE_ROOT; };
+		A36D0D2E1C15E2FC00C27953 /* Troublemaker_demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Troublemaker_demo.swift; sourceTree = "<group>"; };
+		A36D0D301C15E2FC00C27953 /* NSObject_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject_Extension.swift; sourceTree = "<group>"; };
+		A36D0D321C15E2FC00C27953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36D0D4B1C15F5E000C27953 /* Troublemaker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Troublemaker.xcodeproj; path = ../../Troublemaker.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A36D0D441C15E54900C27953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36D0D571C15F5F000C27953 /* Troublemaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A36D0D201C15E2FC00C27953 = {
+			isa = PBXGroup;
+			children = (
+				A36D0D4B1C15F5E000C27953 /* Troublemaker.xcodeproj */,
+				A36D0D2A1C15E2FC00C27953 /* Troublemaker_demo */,
+				A36D0D291C15E2FC00C27953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A36D0D291C15E2FC00C27953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36D0D281C15E2FC00C27953 /* Troublemaker_demo.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A36D0D2A1C15E2FC00C27953 /* Troublemaker_demo */ = {
+			isa = PBXGroup;
+			children = (
+				A36D0D2E1C15E2FC00C27953 /* Troublemaker_demo.swift */,
+				A36D0D301C15E2FC00C27953 /* NSObject_Extension.swift */,
+				A36D0D321C15E2FC00C27953 /* Info.plist */,
+				A36D0D2B1C15E2FC00C27953 /* Supporting Files */,
+			);
+			path = Troublemaker_demo;
+			sourceTree = "<group>";
+		};
+		A36D0D2B1C15E2FC00C27953 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36D0D2C1C15E2FC00C27953 /* Troublemaker_demo.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A36D0D4C1C15F5E000C27953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36D0D521C15F5E000C27953 /* Troublemaker.framework */,
+				A36D0D541C15F5E000C27953 /* TroublemakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A36D0D271C15E2FC00C27953 /* Troublemaker_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36D0D351C15E2FC00C27953 /* Build configuration list for PBXNativeTarget "Troublemaker_demo" */;
+			buildPhases = (
+				A36D0D251C15E2FC00C27953 /* Sources */,
+				A36D0D261C15E2FC00C27953 /* Resources */,
+				A36D0D441C15E54900C27953 /* Frameworks */,
+				A36D0D461C15E55500C27953 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36D0D561C15F5E900C27953 /* PBXTargetDependency */,
+			);
+			name = Troublemaker_demo;
+			productName = Troublemaker_demo;
+			productReference = A36D0D281C15E2FC00C27953 /* Troublemaker_demo.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A36D0D211C15E2FC00C27953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = YOPESO;
+				TargetAttributes = {
+					A36D0D271C15E2FC00C27953 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A36D0D241C15E2FC00C27953 /* Build configuration list for PBXProject "Troublemaker_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A36D0D201C15E2FC00C27953;
+			productRefGroup = A36D0D291C15E2FC00C27953 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A36D0D4C1C15F5E000C27953 /* Products */;
+					ProjectRef = A36D0D4B1C15F5E000C27953 /* Troublemaker.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A36D0D271C15E2FC00C27953 /* Troublemaker_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A36D0D521C15F5E000C27953 /* Troublemaker.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Troublemaker.framework;
+			remoteRef = A36D0D511C15F5E000C27953 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A36D0D541C15F5E000C27953 /* TroublemakerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TroublemakerTests.xctest;
+			remoteRef = A36D0D531C15F5E000C27953 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A36D0D261C15E2FC00C27953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36D0D2D1C15E2FC00C27953 /* Troublemaker_demo.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36D0D251C15E2FC00C27953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36D0D2F1C15E2FC00C27953 /* Troublemaker_demo.swift in Sources */,
+				A36D0D311C15E2FC00C27953 /* NSObject_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A36D0D561C15F5E900C27953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Troublemaker;
+			targetProxy = A36D0D551C15F5E900C27953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A36D0D331C15E2FC00C27953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks/ @loader_path/../Frameworks/";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		A36D0D341C15E2FC00C27953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks/ @loader_path/../Frameworks/";
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		A36D0D361C15E2FC00C27953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Troublemaker_demo/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yopeso.Troublemaker-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		A36D0D371C15E2FC00C27953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Troublemaker_demo/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yopeso.Troublemaker-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A36D0D241C15E2FC00C27953 /* Build configuration list for PBXProject "Troublemaker_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36D0D331C15E2FC00C27953 /* Debug */,
+				A36D0D341C15E2FC00C27953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36D0D351C15E2FC00C27953 /* Build configuration list for PBXNativeTarget "Troublemaker_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36D0D361C15E2FC00C27953 /* Debug */,
+				A36D0D371C15E2FC00C27953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A36D0D211C15E2FC00C27953 /* Project object */;
+}

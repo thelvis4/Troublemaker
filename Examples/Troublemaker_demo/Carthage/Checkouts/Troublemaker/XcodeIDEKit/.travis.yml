@@ -1,0 +1,5 @@
+language: objective-c
+xcode_project: XcodeIDEKit.xcodeproj
+xcode_scheme: XcodeIDEKit
+xcode_sdk: macosx
+osx_image: xcode7.1

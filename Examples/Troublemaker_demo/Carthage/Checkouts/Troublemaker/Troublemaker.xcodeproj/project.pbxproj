@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35141E61CA96F3900B163D8 /* XcodeIDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; };
+		A360E1031C11FA2700D20771 /* Troublemaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A360E1021C11FA2700D20771 /* Troublemaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A360E10A1C11FA2700D20771 /* Troublemaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E0FF1C11FA2700D20771 /* Troublemaker.framework */; };
+		A360E11D1C11FA4400D20771 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E1191C11FA4400D20771 /* Issue.swift */; };
+		A360E11E1C11FA4400D20771 /* IssueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E11A1C11FA4400D20771 /* IssueData.swift */; };
+		A360E11F1C11FA4400D20771 /* IssueLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E11B1C11FA4400D20771 /* IssueLog.swift */; };
+		A360E1201C11FA4400D20771 /* Troublemaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E11C1C11FA4400D20771 /* Troublemaker.swift */; };
+		A360E1241C11FA6100D20771 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E1221C11FA6100D20771 /* Nimble.framework */; };
+		A360E1251C11FA6100D20771 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E1231C11FA6100D20771 /* Quick.framework */; };
+		A360E1281C11FA6700D20771 /* IssueDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E1261C11FA6700D20771 /* IssueDataTests.swift */; };
+		A360E1291C11FA6700D20771 /* IssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E1271C11FA6700D20771 /* IssueTests.swift */; };
+		A360E12B1C11FA8100D20771 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E1221C11FA6100D20771 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A360E12C1C11FA8100D20771 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E1231C11FA6100D20771 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A360E10B1C11FA2700D20771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A360E0F61C11FA2600D20771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A360E0FE1C11FA2700D20771;
+			remoteInfo = Troublemaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A360E12A1C11FA7C00D20771 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A360E12B1C11FA8100D20771 /* Nimble.framework in CopyFiles */,
+				A360E12C1C11FA8100D20771 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeIDEKit.framework; path = Carthage/Build/Mac/XcodeIDEKit.framework; sourceTree = "<group>"; };
+		A360E0FF1C11FA2700D20771 /* Troublemaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Troublemaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A360E1021C11FA2700D20771 /* Troublemaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Troublemaker.h; sourceTree = "<group>"; };
+		A360E1041C11FA2700D20771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A360E1091C11FA2700D20771 /* TroublemakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroublemakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A360E1101C11FA2700D20771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A360E1191C11FA4400D20771 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		A360E11A1C11FA4400D20771 /* IssueData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueData.swift; sourceTree = "<group>"; };
+		A360E11B1C11FA4400D20771 /* IssueLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueLog.swift; sourceTree = "<group>"; };
+		A360E11C1C11FA4400D20771 /* Troublemaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Troublemaker.swift; sourceTree = "<group>"; };
+		A360E1221C11FA6100D20771 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
+		A360E1231C11FA6100D20771 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
+		A360E1261C11FA6700D20771 /* IssueDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueDataTests.swift; sourceTree = "<group>"; };
+		A360E1271C11FA6700D20771 /* IssueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A360E0FB1C11FA2700D20771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35141E61CA96F3900B163D8 /* XcodeIDEKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A360E1061C11FA2700D20771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360E10A1C11FA2700D20771 /* Troublemaker.framework in Frameworks */,
+				A360E1241C11FA6100D20771 /* Nimble.framework in Frameworks */,
+				A360E1251C11FA6100D20771 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A35141E41CA96E4000B163D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A360E0F51C11FA2600D20771 = {
+			isa = PBXGroup;
+			children = (
+				A360E1011C11FA2700D20771 /* Troublemaker */,
+				A360E10D1C11FA2700D20771 /* TroublemakerTests */,
+				A35141E41CA96E4000B163D8 /* Frameworks */,
+				A360E1001C11FA2700D20771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A360E1001C11FA2700D20771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A360E0FF1C11FA2700D20771 /* Troublemaker.framework */,
+				A360E1091C11FA2700D20771 /* TroublemakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A360E1011C11FA2700D20771 /* Troublemaker */ = {
+			isa = PBXGroup;
+			children = (
+				A360E11C1C11FA4400D20771 /* Troublemaker.swift */,
+				A360E1191C11FA4400D20771 /* Issue.swift */,
+				A360E11A1C11FA4400D20771 /* IssueData.swift */,
+				A360E11B1C11FA4400D20771 /* IssueLog.swift */,
+				A360E1021C11FA2700D20771 /* Troublemaker.h */,
+				A360E1041C11FA2700D20771 /* Info.plist */,
+			);
+			path = Troublemaker;
+			sourceTree = "<group>";
+		};
+		A360E10D1C11FA2700D20771 /* TroublemakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A360E1211C11FA6100D20771 /* Frameworks */,
+				A360E1261C11FA6700D20771 /* IssueDataTests.swift */,
+				A360E1271C11FA6700D20771 /* IssueTests.swift */,
+				A360E1101C11FA2700D20771 /* Info.plist */,
+			);
+			path = TroublemakerTests;
+			sourceTree = "<group>";
+		};
+		A360E1211C11FA6100D20771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A360E1221C11FA6100D20771 /* Nimble.framework */,
+				A360E1231C11FA6100D20771 /* Quick.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A360E0FC1C11FA2700D20771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360E1031C11FA2700D20771 /* Troublemaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A360E0FE1C11FA2700D20771 /* Troublemaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A360E1131C11FA2700D20771 /* Build configuration list for PBXNativeTarget "Troublemaker" */;
+			buildPhases = (
+				A360E0FA1C11FA2700D20771 /* Sources */,
+				A360E0FB1C11FA2700D20771 /* Frameworks */,
+				A360E0FC1C11FA2700D20771 /* Headers */,
+				A360E0FD1C11FA2700D20771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Troublemaker;
+			productName = Troublemaker;
+			productReference = A360E0FF1C11FA2700D20771 /* Troublemaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A360E1081C11FA2700D20771 /* TroublemakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A360E1161C11FA2700D20771 /* Build configuration list for PBXNativeTarget "TroublemakerTests" */;
+			buildPhases = (
+				A360E1051C11FA2700D20771 /* Sources */,
+				A360E1061C11FA2700D20771 /* Frameworks */,
+				A360E1071C11FA2700D20771 /* Resources */,
+				A360E12A1C11FA7C00D20771 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A360E10C1C11FA2700D20771 /* PBXTargetDependency */,
+			);
+			name = TroublemakerTests;
+			productName = TroublemakerTests;
+			productReference = A360E1091C11FA2700D20771 /* TroublemakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A360E0F61C11FA2600D20771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrei Raifura";
+				TargetAttributes = {
+					A360E0FE1C11FA2700D20771 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A360E1081C11FA2700D20771 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A360E0F91C11FA2600D20771 /* Build configuration list for PBXProject "Troublemaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A360E0F51C11FA2600D20771;
+			productRefGroup = A360E1001C11FA2700D20771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A360E0FE1C11FA2700D20771 /* Troublemaker */,
+				A360E1081C11FA2700D20771 /* TroublemakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A360E0FD1C11FA2700D20771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A360E1071C11FA2700D20771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A360E0FA1C11FA2700D20771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360E11F1C11FA4400D20771 /* IssueLog.swift in Sources */,
+				A360E11D1C11FA4400D20771 /* Issue.swift in Sources */,
+				A360E1201C11FA4400D20771 /* Troublemaker.swift in Sources */,
+				A360E11E1C11FA4400D20771 /* IssueData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A360E1051C11FA2700D20771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360E1281C11FA6700D20771 /* IssueDataTests.swift in Sources */,
+				A360E1291C11FA6700D20771 /* IssueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A360E10C1C11FA2700D20771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A360E0FE1C11FA2700D20771 /* Troublemaker */;
+			targetProxy = A360E10B1C11FA2700D20771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A360E1111C11FA2700D20771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A360E1121C11FA2700D20771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A360E1141C11FA2700D20771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Troublemaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yopeso.Troublemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A360E1151C11FA2700D20771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Troublemaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yopeso.Troublemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A360E1171C11FA2700D20771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TroublemakerTests/Frameworks",
+				);
+				INFOPLIST_FILE = TroublemakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yopeso.TroublemakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A360E1181C11FA2700D20771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TroublemakerTests/Frameworks",
+				);
+				INFOPLIST_FILE = TroublemakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yopeso.TroublemakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A360E0F91C11FA2600D20771 /* Build configuration list for PBXProject "Troublemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360E1111C11FA2700D20771 /* Debug */,
+				A360E1121C11FA2700D20771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A360E1131C11FA2700D20771 /* Build configuration list for PBXNativeTarget "Troublemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360E1141C11FA2700D20771 /* Debug */,
+				A360E1151C11FA2700D20771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A360E1161C11FA2700D20771 /* Build configuration list for PBXNativeTarget "TroublemakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360E1171C11FA2700D20771 /* Debug */,
+				A360E1181C11FA2700D20771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A360E0F61C11FA2600D20771 /* Project object */;
+}
