@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A35141E61CA96F3900B163D8 /* XcodeIDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; };
+		A317D4DD1CC12C7200D11A2C /* XcodeIDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A317D4DC1CC12C7200D11A2C /* XcodeIDEKit.framework */; };
 		A360E1031C11FA2700D20771 /* Troublemaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A360E1021C11FA2700D20771 /* Troublemaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A360E10A1C11FA2700D20771 /* Troublemaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E0FF1C11FA2700D20771 /* Troublemaker.framework */; };
 		A360E11D1C11FA4400D20771 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E1191C11FA4400D20771 /* Issue.swift */; };
@@ -20,8 +20,6 @@
 		FF3B8E131CC0F2EA005C8CF9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */; };
 		FF3B8E141CC0F416005C8CF9 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF3B8E101CC0F2EA005C8CF9 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF3B8E151CC0F416005C8CF9 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF3B8E161CC0F435005C8CF9 /* XcodeIDEKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FFC5CB281CC1178200A690A8 /* XcodeIDEKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF3B8E161CC0F435005C8CF9 /* XcodeIDEKit.framework in CopyFiles */,
 				FF3B8E141CC0F416005C8CF9 /* Nimble.framework in CopyFiles */,
 				FF3B8E151CC0F416005C8CF9 /* Quick.framework in CopyFiles */,
 			);
@@ -50,7 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeIDEKit.framework; path = Carthage/Build/Mac/XcodeIDEKit.framework; sourceTree = "<group>"; };
+		A317D4DC1CC12C7200D11A2C /* XcodeIDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeIDEKit.framework; path = Carthage/Build/Mac/XcodeIDEKit.framework; sourceTree = "<group>"; };
 		A360E0FF1C11FA2700D20771 /* Troublemaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Troublemaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A360E1021C11FA2700D20771 /* Troublemaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Troublemaker.h; sourceTree = "<group>"; };
 		A360E1041C11FA2700D20771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A35141E61CA96F3900B163D8 /* XcodeIDEKit.framework in Frameworks */,
+				A317D4DD1CC12C7200D11A2C /* XcodeIDEKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +88,7 @@
 		A35141E41CA96E4000B163D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */,
+				A317D4DC1CC12C7200D11A2C /* XcodeIDEKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -240,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC5CB281CC1178200A690A8 /* XcodeIDEKit.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
