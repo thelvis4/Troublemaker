@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A317D4DA1CC12B3400D11A2C /* XcodeIDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A317D4D91CC12B3400D11A2C /* XcodeIDEKit.framework */; };
+		A317D4DB1CC12B3F00D11A2C /* XcodeIDEKit.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = A317D4D91CC12B3400D11A2C /* XcodeIDEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A36D0D2D1C15E2FC00C27953 /* Troublemaker_demo.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = A36D0D2C1C15E2FC00C27953 /* Troublemaker_demo.xcscheme */; };
 		A36D0D2F1C15E2FC00C27953 /* Troublemaker_demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D0D2E1C15E2FC00C27953 /* Troublemaker_demo.swift */; };
 		A36D0D311C15E2FC00C27953 /* NSObject_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D0D301C15E2FC00C27953 /* NSObject_Extension.swift */; };
@@ -21,6 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A317D4DB1CC12B3F00D11A2C /* XcodeIDEKit.framework in Copy Files */,
 				FFC5CB2D1CC11BF700A690A8 /* Troublemaker.framework in Copy Files */,
 			);
 			name = "Copy Files";
@@ -29,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A317D4D91CC12B3400D11A2C /* XcodeIDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeIDEKit.framework; path = Carthage/Build/Mac/XcodeIDEKit.framework; sourceTree = SOURCE_ROOT; };
 		A36D0D281C15E2FC00C27953 /* Troublemaker_demo.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Troublemaker_demo.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36D0D2C1C15E2FC00C27953 /* Troublemaker_demo.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Troublemaker_demo.xcscheme; path = Troublemaker_demo.xcodeproj/xcshareddata/xcschemes/Troublemaker_demo.xcscheme; sourceTree = SOURCE_ROOT; };
 		A36D0D2E1C15E2FC00C27953 /* Troublemaker_demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Troublemaker_demo.swift; sourceTree = "<group>"; };
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A317D4DA1CC12B3400D11A2C /* XcodeIDEKit.framework in Frameworks */,
 				FFC5CB2C1CC11BD100A690A8 /* Troublemaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +93,7 @@
 		FFC5CB2A1CC11BC300A690A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A317D4D91CC12B3400D11A2C /* XcodeIDEKit.framework */,
 				FFC5CB2B1CC11BD100A690A8 /* Troublemaker.framework */,
 			);
 			name = Frameworks;
