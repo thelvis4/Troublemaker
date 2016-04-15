@@ -21,7 +21,6 @@
 		FF3B8E141CC0F416005C8CF9 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF3B8E101CC0F2EA005C8CF9 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF3B8E151CC0F416005C8CF9 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF3B8E161CC0F435005C8CF9 /* XcodeIDEKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FFC5CB281CC1178200A690A8 /* XcodeIDEKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC5CB281CC1178200A690A8 /* XcodeIDEKit.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
