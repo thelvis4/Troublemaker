@@ -14,12 +14,13 @@
 		A360E11E1C11FA4400D20771 /* IssueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E11A1C11FA4400D20771 /* IssueData.swift */; };
 		A360E11F1C11FA4400D20771 /* IssueLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E11B1C11FA4400D20771 /* IssueLog.swift */; };
 		A360E1201C11FA4400D20771 /* Troublemaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E11C1C11FA4400D20771 /* Troublemaker.swift */; };
-		A360E1241C11FA6100D20771 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E1221C11FA6100D20771 /* Nimble.framework */; };
-		A360E1251C11FA6100D20771 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360E1231C11FA6100D20771 /* Quick.framework */; };
 		A360E1281C11FA6700D20771 /* IssueDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E1261C11FA6700D20771 /* IssueDataTests.swift */; };
 		A360E1291C11FA6700D20771 /* IssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360E1271C11FA6700D20771 /* IssueTests.swift */; };
-		A360E12B1C11FA8100D20771 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E1221C11FA6100D20771 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A360E12C1C11FA8100D20771 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A360E1231C11FA6100D20771 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF3B8E121CC0F2EA005C8CF9 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3B8E101CC0F2EA005C8CF9 /* Nimble.framework */; };
+		FF3B8E131CC0F2EA005C8CF9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */; };
+		FF3B8E141CC0F416005C8CF9 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF3B8E101CC0F2EA005C8CF9 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF3B8E151CC0F416005C8CF9 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF3B8E161CC0F435005C8CF9 /* XcodeIDEKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A35141E51CA96F3900B163D8 /* XcodeIDEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A360E12B1C11FA8100D20771 /* Nimble.framework in CopyFiles */,
-				A360E12C1C11FA8100D20771 /* Quick.framework in CopyFiles */,
+				FF3B8E161CC0F435005C8CF9 /* XcodeIDEKit.framework in CopyFiles */,
+				FF3B8E141CC0F416005C8CF9 /* Nimble.framework in CopyFiles */,
+				FF3B8E151CC0F416005C8CF9 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,10 +59,10 @@
 		A360E11A1C11FA4400D20771 /* IssueData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueData.swift; sourceTree = "<group>"; };
 		A360E11B1C11FA4400D20771 /* IssueLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueLog.swift; sourceTree = "<group>"; };
 		A360E11C1C11FA4400D20771 /* Troublemaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Troublemaker.swift; sourceTree = "<group>"; };
-		A360E1221C11FA6100D20771 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		A360E1231C11FA6100D20771 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
 		A360E1261C11FA6700D20771 /* IssueDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueDataTests.swift; sourceTree = "<group>"; };
 		A360E1271C11FA6700D20771 /* IssueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTests.swift; sourceTree = "<group>"; };
+		FF3B8E101CC0F2EA005C8CF9 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A360E10A1C11FA2700D20771 /* Troublemaker.framework in Frameworks */,
-				A360E1241C11FA6100D20771 /* Nimble.framework in Frameworks */,
-				A360E1251C11FA6100D20771 /* Quick.framework in Frameworks */,
+				FF3B8E121CC0F2EA005C8CF9 /* Nimble.framework in Frameworks */,
+				FF3B8E131CC0F2EA005C8CF9 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +141,8 @@
 		A360E1211C11FA6100D20771 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A360E1221C11FA6100D20771 /* Nimble.framework */,
-				A360E1231C11FA6100D20771 /* Quick.framework */,
+				FF3B8E101CC0F2EA005C8CF9 /* Nimble.framework */,
+				FF3B8E111CC0F2EA005C8CF9 /* Quick.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -418,10 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/TroublemakerTests/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
 				INFOPLIST_FILE = TroublemakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yopeso.TroublemakerTests;
@@ -433,10 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/TroublemakerTests/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
 				INFOPLIST_FILE = TroublemakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yopeso.TroublemakerTests;
